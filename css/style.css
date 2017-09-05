@@ -134,6 +134,14 @@ main {
 	margin-right: 0;
 }
 
+@media screen and (max-width: 500px) {
+	.results {
+		-webkit-flex-direction: column;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+}
+
 
 
 
