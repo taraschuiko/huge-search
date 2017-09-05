@@ -75,9 +75,9 @@ main {
 .results {
 	margin-top: 35px;
 	display: flex;
-	-webkit-flex-direction: row;
-	    -ms-flex-direction: row;
-	        flex-direction: row;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
 }
 
 .results_container {
@@ -134,7 +134,7 @@ main {
 	margin-right: 0;
 }
 
-@media screen and (max-width: 500px) {
+@media only screen and (max-width: 500px) {
 	.results {
 		-webkit-flex-direction: column;
 		    -ms-flex-direction: column;
