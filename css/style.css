@@ -1,0 +1,141 @@
+* {
+	font-family: Arial, sans-serif;
+	color: #C2C2C2;
+	font-weight: 700;
+}
+
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+body {
+	background: #f1f1f1;
+}
+
+main {
+	width: 79%;
+	margin: 0 auto;
+}
+
+/*Form*/
+
+.form-top {
+	width: 100%;
+    padding: 0;
+    font-weight: 700;
+    border: none;
+    background: transparent;
+    font-size: 6em;
+    color: #C2C2C2;
+    font-weight: bold;
+    margin-top: 40px;
+    display: flex;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-justify-content: flex-end;
+            justify-content: flex-end;
+    
+}
+
+.form-top input {
+	display: inline-block;
+	width: 100%;
+	font-weight: 700;
+	background: none;
+	background: transparent;
+	border: transparent;
+	color: #EC5A62;
+	outline: none;
+}
+
+.form-top input::placeholder {
+	color: #C2C2C2;
+}
+
+.form-top a img {
+	height: 80px;
+	width: 80px;
+	margin-right: -10px;
+	margin-bottom: -10px;
+}
+
+.form-top a img:hover {
+	width: 90px;
+	height: 90px;
+	margin-bottom: -15px;
+}
+
+/*Results*/
+
+.results {
+	margin-top: 35px;
+	display: flex;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+}
+
+.results_container {
+	width: 30%;
+	margin-right: 58px;
+}
+
+.results_container a {
+	text-decoration: none;
+}
+
+.item {
+	background: #EBEBEC;
+	height: 74px;
+	width: 100%;
+	margin-bottom: 4px;
+	display: flex;
+	-webkit-border-radius: 5px;
+	        border-radius: 5px;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+}
+
+.item:hover {
+	background: #e4e4e5;
+}
+
+.item:hover p {
+	color: #EC5A62;
+}
+
+.results_container div img {
+	margin-top: 10px;
+	margin-left: 12px;
+	width: 50px;
+	height: 50px;
+	-webkit-border-radius: 50%;
+	        border-radius: 50%;
+}
+
+.results_container div p {
+	font-size: 14px;
+	margin-left: 14px;
+	margin-top: 26px;
+}
+
+#popular div img, #recent div img {
+	-webkit-border-radius: 0%;
+	        border-radius: 0%;
+}
+
+#recent {
+	margin-right: 0;
+}
+
+
+
+
+
+
